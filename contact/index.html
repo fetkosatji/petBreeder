@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css link -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <!-- icon fontawesome -->
+    <script src="https://kit.fontawesome.com/adb79ca24e.js" crossorigin="anonymous"></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../assets/img/favicon.svg" type="image/x-icon" />
+    <title>KitCat - Contact</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <i class="fa-solid fa-cat"></i>
+          <h4>KitCat</h4>
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="..">Home</a></li>
+          <li><a href="../cats">Cats</a></li>
+          <li class="selected-link"><a href="#">Contact</a></li>
+        </ul>
+
+        <div class="burger">
+          <div class="line-1"></div>
+          <div class="line-2"></div>
+          <div class="line-3"></div>
+        </div>
+      </nav>
+
+      <section id="jumbo4" class="jumbotron">
+        <div class="content">
+          <h1>Kontak</h1>
+          <p>Ingin memesan kucing atau ada pertanyaan? Kirim kami pesan melalui kontak dibawah ini!</p>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <div id="contact">
+        <section class="left">
+          <div class="title">
+            <h2>Kirim Kami Pesan</h2>
+            <p>Hubungi sosial media kami atau untuk memesan kucing dan untuk bertanya. Dan juga kunjungi kami di lokasi dibawah ini!</p>
+          </div>
+
+          <div class="mid-icons">
+            <div class="content">
+              <div class="logo">
+                <i class="fa-solid fa-location-dot" style="color: white;"></i>
+              </div>
+
+              <div class="text">
+                <span>jl. Ibrahiem Adjie, Kecamatan Indihiang, Kota Tasikmalaya, Jawa Barat 46151</span>
+              </div>
+            </div>
+
+            <div class="content">
+              <div class="logo">
+                <i class="fa-solid fa-phone-volume"></i>
+              </div>
+
+              <div class="text">
+                <span>(0265) 7207838</span>
+              </div>
+            </div>
+
+            <div class="content">
+              <div class="logo">
+                <i class="fa-regular fa-clock"></i>
+              </div>
+
+              <div class="text">
+                <p>Sen - Jum: 08.00 - 16.00</p>
+                <p>Sab - Ming: tutup</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bot-icons">
+            <div class="title">
+              <h3>Pemesanan Melalui <br> Sosial Media Kami</h3>
+            </div>
+
+            <div class="media-icons">
+              <a href="#">
+                <div class="card-icon">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </div>  
+              </a>
+
+              <a href="https://api.whatsapp.com/send?phone=6281214673184">
+                <div class="card-icon">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+              </a>
+              
+              <a href="https://www.instagram.com/fetri1002/">
+                <div class="card-icon">
+                  <i class="fa-brands fa-instagram"></i>            
+                </div>              
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="right">
+        <div class="email-form">
+          <form action="https://formsubmit.co/aldijaya280902@gmail.com" method="POST">
+            <input class="input-form" type="text" name="Name" id="name" placeholder="Nama" required>
+            <input class="input-form" type="email" name="Email" id="email" placeholder="Email" required>
+            <input class="input-form" type="text" name="_subject" id="subject" placeholder="Subject" required>
+            <input class="input-form" type="number" name="No. telepon" id="telp" placeholder="No. Telepon" required>
+            <textarea class="message" name="Pesan" id="message" placeholder="Pesan"></textarea>
+            <input type="hidden" name="_captcha" value="false">
+            <a href="#" onclick="notif()"><button class="btn">Kirim Pesan</button></a>
+          </form>
+        </section>
+      </div>
+
+      <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d989.3877739061277!2d108.20021272936096!3d-7.291804299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2d24ee5e393db84e!2zN8KwMTcnMzAuNSJTIDEwOMKwMTInMDIuNyJF!5e0!3m2!1sen!2sid!4v1656314851141!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-top">
+        <div class="logo">
+          <i class="fa-solid fa-cat"></i>
+          <h4>KitCat</h4>
+        </div>
+      </div>
+
+      <div class="footer-mid">
+        <div class="footer-content">
+          <div class="logo">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+
+          <div class="text">
+            <span>jl. Ibrahiem Adjie, Kecamatan Indihiang, Kota Tasikmalaya, Jawa Barat 46151</span>
+          </div>
+        </div>
+
+        <div class="footer-content">
+          <div class="logo">
+            <i class="fa-solid fa-phone-volume"></i>
+          </div>
+
+          <div class="text">
+            <span>(0265) 7207838</span>
+          </div>
+        </div>
+
+        <div class="footer-content">
+          <div class="logo">
+            <i class="fa-regular fa-clock"></i>
+          </div>
+
+          <div class="text">
+            <p>Sen - Jum: 08.00 - 16.00</p>
+            <p>Sab - Ming: tutup</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bot">
+        <div class="copyright">
+          <span>KITCAT &copy 2022 - All Right Reserved</span>
+        </div>
+
+        <div class="media-icons">
+          <a href="#">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=6281214673184">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="https://www.instagram.com/fetri1002/">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="../assets/js/slider.js"></script>
+    <script src="../assets/js/navbar.js"></script>
+    <script>
+      function notif() {
+        alert('Terimakasih Sudah Mengirim Pesan')
+      }
+    </script>
+  </body>
+</html>
